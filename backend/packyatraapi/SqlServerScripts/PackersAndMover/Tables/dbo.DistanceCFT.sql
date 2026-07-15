@@ -1,0 +1,32 @@
+IF EXISTS (SELECT * FROM DBO.SYSOBJECTS WHERE ID = OBJECT_ID(N'[DBO].[DistanceCFT])') AND OBJECTPROPERTY(ID,N'ISUSERTABLE')=1)
+DROP TABLE [dbo].[DistanceCFT]
+GO
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[DistanceCFT](
+	[DistanceRange] [varchar](50) NULL,
+	[CFT_100_149] [int] NULL,
+	[CFT_150_199] [int] NULL,
+	[CFT_200_249] [int] NULL,
+	[CFT_250_299] [int] NULL,
+	[CFT_300_349] [int] NULL,
+	[CFT_350_399] [int] NULL,
+	[CFT_400_499] [int] NULL,
+	[CFT_500_549] [int] NULL,
+	[CFT_550_599] [int] NULL,
+	[CFT_600_649] [int] NULL,
+	[CFT_650_699] [int] NULL,
+	[CFT_700_749] [int] NULL,
+	[CFT_750_799] [int] NULL,
+	[CFT_800_849] [int] NULL,
+	[CFT_850_899] [int] NULL,
+	[CFT_900_949] [int] NULL,
+	[CFT_950_999] [int] NULL
+) ON [PRIMARY]
+GO
+
+

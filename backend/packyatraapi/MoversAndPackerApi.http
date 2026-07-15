@@ -1,0 +1,6 @@
+@MoversAndPackerApi_HostAddress = http://localhost:5264
+
+GET {{MoversAndPackerApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
