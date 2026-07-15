@@ -1,0 +1,8 @@
+{
+  "name": "PackYatra Supervisor App",
+  "description": "Supervisor and tracking portal for PackYatra moving and packing services, featuring job overview, shipment tracking, inventory lists, and supervisor comment options.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
